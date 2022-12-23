@@ -50,7 +50,7 @@
   margin-right: -8px;
 }
 .chartBars .bars li b {
-  color: #eee;
+  color: #333;
   width: 100%;
   position: absolute;
   bottom: -2em;
@@ -129,7 +129,7 @@
   padding-left: 70px;
 }
 .chartBarsWrap.chartBarsHorizontal .bars b {
-  color: #eee;
+  color: #333;
   width: 100%;
   position: absolute;
   bottom: initial;
@@ -265,7 +265,7 @@ li.creativity .piesite > #slice > .pie {
   left: 0.1em;
   width: 0.8em;
   height: 0.8em;
-  background: #30303a;
+  background: #fff;
   border-radius: 100%;
   z-index: 1;
 }
@@ -349,10 +349,10 @@ li.creativity .piesite > #slice > .pie {
 body {
   max-width: 1024px;
   margin: 0 auto;
-  background: linear-gradient(to bottom, #14213d 80%, #007dbb 100%);
+  /*background: linear-gradient(to bottom, #14213d 80%, #007dbb 100%);*/
   font-family: "Dosis", sans-serif;
   font-size: 1em;
-  color: #ddd;
+  color: #333;
   margin: 20px;
 }
 a {
@@ -373,6 +373,7 @@ h3 {
 }
 h1 {
   font-size: 5em;
+  color: #007dbc;
 }
 h2 {
   font-size: 2em;
@@ -382,16 +383,25 @@ h2 {
 }
 
 h2 .accent {
-  color: rgb(238, 17, 120);
+  color: #007dbc;
+}
+h2.fsdnlink {
+  padding-top: 25px;
+}
+hr {
+  border-top: 2px solid #007dbc;
 }
 h3 {
-  color: rgb(238, 17, 120);
+  color: #007dbc;
   font-size: 1.6em;
   margin-top: 50px;
   font-size: 2em;
 }
 strong {
   color: rgb(238, 17, 120);
+}
+a {
+  color: #007dbc;
 }
 p {
   line-height: 1.5em;
@@ -409,6 +419,7 @@ p.intro {
   font-size: 2.4em;
   line-height: 1.3em;
   padding: 0 30px 0 0;
+  color: #007dbc;
 }
 @media (max-width: 800px) {
   p.intro {
